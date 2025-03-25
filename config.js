@@ -2,7 +2,7 @@ const hostname = process.env.PROD_DB_HOST || "10.1.100.146";
 
 module.exports = {
   app: {
-    port: process.env.PORT || 3002,
+    port: process.env.AUTH || 3002,
   },
   db: {
     postgres: {
